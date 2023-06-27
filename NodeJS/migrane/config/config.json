@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "siddhant.mazumdar",
+    "password": "Rapid@123",
+    "database": "form",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "siddhant.mazumdar",
+    "password": "Rapid@123",
+    "database": "form",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "siddhant.mazumdar",
+    "password": "Rapid@123",
+    "database": "form",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

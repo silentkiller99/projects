@@ -1,0 +1,24 @@
+{
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 26257,
+            "driver": "CockroachDB",
+            "name": "email-clint",
+            "database": "email_clint_1",
+            "username": "root"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 25267,
+            "driver": "CockroachDB",
+            "name": "email_clint",
+            "database": "email_clint_1",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}

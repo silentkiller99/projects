@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    
+    /* background-c olor: black; */
+}
+
+.nav{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logoh{
+    font-size: 38px;
+    font-weight: lighter;
+    /* color: aquamarine; */
+}
+
+.para{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.logo2>ul>li{
+    list-style: none;
+}
+
+.hover:hover{
+    color: aquamarine;
+}
+.logo2>ul>li>a{
+
+    padding: 25px;
+    border: none;
+    text-decoration: none;
+    color: rgb(109, 107, 107);
+    font-weight: 100;
+    
+}
+
+.second{
+width: 100%;
+height: 50%;
+border: 0.5px solid rgb(188, 184, 184);
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 0 10px;
+/* position: relative; */
+}
+
+.secon>text>h1{
+    font-size: 50px;
+}
+.img>img{
+    width: 120%;
+}
+
+.text{
+    width: 40%;
+    height: 70%;
+    /* background-color:red; */
+    /* border: 1px solid black; */
+    /* position: absolute; */
+}
+
+.text>h1{
+    /* width: 80%; */
+    font-size: 60px;
+    font-weight: 100;
+    /* background-color: pink; */
+}
+
+.text>p{
+    margin-top: 20px;
+    font-weight: 100;
+    color: rgb(139, 137, 137);
+
+}
+
+.btn{
+    width: 16%;
+    height: 10%;
+    background-color:rgb(85, 170, 142);
+    border: none;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.third{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img1>img {
+    width: 50%;
+}
+
+.text1>h1 {
+    /* width: 80%; */
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    /* background-color: pink; */
+}
+
+.in>p {
+    margin-top: 20px;
+    font-weight: 100;
+    color: rgb(139, 137, 137);
+
+}
+
+.btn1{
+    width: 25%;
+    height: 28%;
+    background-color: rgb(85, 170, 142);
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.p{
+    margin-top: 20px;
+    width: 80%;
+    color: rgb(126, 122, 122);
+    font-weight: lighter;
+}
+
+.fourth{
+    width: 100%;
+    height: 50%;
+      
+    /* align-items: center;
+    justify-content: space-between; */
+    /* background-color: red; */
+}
+
+.h1{
+    padding: 80px 180px;
+     width: 100%;
+     height: 30%;
+     /* background-color: #fff; */
+     font-size: 30px;
+}
+
+.inn{
+
+    margin-top: 20px;
+    width: 30%;
+    height: 35%;
+    /* background-color:pink; */
+    /* width: ; */
+    display: flex;
+}
+.textt{
+    width: 100%;
+    padding-right: 60px;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.textt>h6{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(85, 170, 142);
+}
+.textt>p{
+    margin-top: 15px;
+    font-size: 20px;
+        font-weight: 100;
+}
+
+.imgg>img{
+    width: 65%;
+}
+
+.down{
+    margin-top: 100px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-left: 100px;
+    
+   
+}
+
+.downn{
+    /* margin-bottom: 10000px; */
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    padding-left: 100px;        
+}
+
+footer {
+
+    background: #140B5C;
+    width: 100%;
+    /* bottom: 0;
+    left: 0; */
+    
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 1px;
+    width: 100%;
+    background: #AFAFB6;
+}
+
+footer .content {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+
+footer .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+footer .content .link-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .content .link-boxes .box {
+    width: calc(100% / 5 - 10px);
+}
+
+.content .link-boxes .box .link_name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.link-boxes .box .link_name::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+}
+
+.content .link-boxes .box li {
+    margin: 6px 0;
+    list-style: none;
+}
+
+.content .link-boxes .box li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease
+}
+
+.content .link-boxes .box li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.content .link-boxes .input-box {
+    margin-right: 55px;
+}
+
+.link-boxes .input-box input {
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid #AFAFB6;
+    background: #140B5C;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.link-boxes .input-box input::placeholder {
+    color: #AFAFB6;
+    font-size: 16px;
+}
+
+.link-boxes .input-box input[type="button"] {
+    background: #fff;
+    color: #140B5C;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.input-box input[type="button"]:hover {
+    opacity: 1;
+}
+
+footer .bottom-details {
+    width: 100%;
+    background: #0F0844;
+}
+
+footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.bottom-details .bottom_text a {
+    margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    footer .content .link-boxes {
+        flex-wrap: wrap;
+    }
+
+    footer .content .link-boxes .input-box {
+        width: 40%;
+        margin-top: 10px;
+    }
+}

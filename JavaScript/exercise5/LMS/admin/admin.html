@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <h1 class="text-center mt-3">Admin Page</h1>
+    <nav class="nav nav-tabs mt-3">
+      <a class="nav-item nav-link active" data-toggle="tab" href="#coursesTab">Courses</a>
+      <a class="nav-item nav-link" data-toggle="tab" href="#studentsTab" id="studentsNav">Students</a>
+      <a class="nav-item nav-link btn mt-4" href="../index.html" id="logout" class="btn mt-4">Logout</a>
+    </nav>
+    <div class="tab-content mt-3">
+      <div class="tab-pane active" id="coursesTab">
+        <h2>Courses</h2>
+        <button class="btn btn-primary mt-3" id="createCourseBtn">Create Course</button>
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="courseTableBody">
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane" id="studentsTab">
+        <h2>Students</h2>
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Courses</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="studentTableBody">
+          </tbody>
+        </table>
+        <!-- <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="nameSignUp">
+            </div>
+            <button type="submit" class="btn btn-primary" id="signUpBtn">Sign Up</button>
+          </form> -->
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="admin.js"></script>
+</body>
+</html>

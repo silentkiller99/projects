@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gmail API Quickstart</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+        <section class="vh-100" style="background-color: #8cb1f3">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-xl-10">
+            <!-- Section: Design Block -->
+            <section
+              class="background-radial-gradient overflow-hidden mh-100"
+              style="border-radius: 1rem"
+            >
+              <div
+                class="container px-4 py-5 px-md-5 text-center text-lg-start my-5"
+              >
+                <div class="row gx-lg-5 align-items-center mb-5">
+                  <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+                    <h1
+                      class="my-5 display-5 fw-bold ls-tight"
+                      style="color: hsl(218, 81%, 95%)"
+                    >
+                      Mail Trump<br />
+                      <span style="color: hsl(218, 81%, 75%)"
+                        >for your business</span
+                      >
+                    </h1>
+                    <p
+                      class="mb-4 opacity-70"
+                      style="color: hsl(218, 81%, 85%)"
+                    >
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Temporibus, expedita iusto veniam atque, magni tempora
+                      mollitia dolorum consequatur nulla, neque debitis eos
+                      reprehenderit quasi ab ipsum nisi dolorem modi. Quos?
+                    </p>
+                  </div>
+
+                  <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+                    <div
+                      id="radius-shape-1"
+                      class="position-absolute rounded-circle shadow-5-strong"
+                    ></div>
+                    <div
+                      id="radius-shape-2"
+                      class="position-absolute shadow-5-strong"
+                    ></div>
+
+                    <div class="card bg-glass">
+                      <div class="card-body px-4 py-5 px-md-5">
+                        <form>
+                          <!-- 2 column grid layout with text inputs for the first and last names -->
+                          <!-- <div class="row">
+                                                        <div class="col-md-6 mb-4">
+                                                            <div class="form-outline">
+                                                                <input type="text" id="form3Example1"
+                                                                    class="form-control" />
+                                                                <label class="form-label" for="form3Example1">First
+                                                                    name</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 mb-4">
+                                                            <div class="form-outline">
+                                                                <input type="text" id="form3Example2"
+                                                                    class="form-control" />
+                                                                <label class="form-label" for="form3Example2">Last
+                                                                    name</label>
+                                                            </div>
+                                                        </div>
+                                                    </div> -->
+
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="email"
+                              id="form3Example3"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="form3Example3"
+                              >Email address</label
+                            >
+                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="form3Example4"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="form3Example4"
+                              >Password</label
+                            >
+                          </div>
+
+                          <!-- Checkbox -->
+                          <div
+                            class="form-check d-flex justify-content-center mb-4"
+                          >
+                            <input
+                              class="form-check-input me-2"
+                              type="checkbox"
+                              value=""
+                              id="form2Example33"
+                              checked
+                              style="background-color: #7e4db5"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="form2Example33"
+                            >
+                              Subscribe to our newsletter
+                            </label>
+                          </div>
+
+                          <!-- Submit button -->
+
+                          <!-- <div id="gSignInWrapper">
+                            <div id="customBtn" class="customGPlusSignIn" style="background-color: #7e4db5">
+                              <span class="buttonText" style="text-decoration :fw-bold">Login</span>
+                            </div>
+                          </div> -->
+
+                          <!-- <button
+                            type="submit"
+                            class="btn btn-primary btn-block mb-4"
+                            id="authorize_button"
+                            onclick="handleAuthClick()"
+                            style="background-color: #7e4db5; color: #000"
+                          >
+                            Login
+                          </button>
+
+                          <buttontype="submit"
+                            class="btn btn-primary btn-block mb-4"
+                            style="background-color: #7e4db5; color: #000"
+                            id="signout_button"
+                            onclick="handleSignoutClick()"
+                          >
+                            Sign Out
+                          </buttontype=>
+
+                          <pre id="content" style="white-space: pre-wrap"></pre> -->
+
+                              <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
+    <button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
+
+                          <!-- Register buttons   handleAuthClick() -->
+                          <!-- <div class="text-center">
+                                        <p>or sign up with:</p>
+                                        <button type="button" class="btn btn-link btn-floating mx-1">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-link btn-floating mx-1">
+                                            <i class="fab fa-google"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-link btn-floating mx-1">
+                                            <i class="fab fa-twitter"></i>
+                                        </button>
+
+                                        <button type="button" class="btn btn-link btn-floating mx-1">
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </div> -->
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Section: Design Block -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+
+
+    <pre id="content" style="white-space: pre-wrap"></pre>
+
+    <script type="text/javascript">
+      /* exported gapiLoaded */
+      /* exported gisLoaded */
+      /* exported handleAuthClick */
+      /* exported handleSignoutClick */
+
+      // TODO(developer): Set to client ID and API key from the Developer Console
+      const CLIENT_ID =
+        "350406253267-291m3ridrlb7774uhc81jikklpr1jud3.apps.googleusercontent.com";
+      const API_KEY = "AIzaSyAejprc1UMYLLcpCqBn1JDUBhS7GsJY-QU";
+
+      // Discovery doc URL for APIs used by the quickstart
+      const DISCOVERY_DOC =
+        "https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest";
+
+      // Authorization scopes required by the API; multiple scopes can be
+      // included, separated by spaces.
+      const SCOPES = "https://www.googleapis.com/auth/gmail.readonly";
+
+      let tokenClient;
+      let gapiInited = false;
+      let gisInited = false;
+
+      document.getElementById("authorize_button").style.visibility = "hidden";
+      document.getElementById("signout_button").style.visibility = "hidden";
+
+      /**
+       * Callback after api.js is loaded.
+       */
+      function gapiLoaded() {
+        gapi.load("client", initializeGapiClient);
+      }
+
+      /**
+       * Callback after the API client is loaded. Loads the
+       * discovery doc to initialize the API.
+       */
+      async function initializeGapiClient() {
+        await gapi.client.init({
+          apiKey: API_KEY,
+          discoveryDocs: [DISCOVERY_DOC],
+        });
+        gapiInited = true;
+        maybeEnableButtons();
+      }
+
+      /**
+       * Callback after Google Identity Services are loaded.
+       */
+      function gisLoaded() {
+        tokenClient = google.accounts.oauth2.initTokenClient({
+          client_id: CLIENT_ID,
+          scope: SCOPES,
+          callback: "", // defined later
+        });
+        gisInited = true;
+        maybeEnableButtons();
+      }
+
+      /**
+       * Enables user interaction after all libraries are loaded.
+       */
+      function maybeEnableButtons() {
+        if (gapiInited && gisInited) {
+          document.getElementById("authorize_button").style.visibility =
+            "visible";
+        }
+      }
+
+      /**
+       *  Sign in the user upon button click.
+       */
+      function handleAuthClick() {
+        tokenClient.callback = async (resp) => {
+          if (resp.error !== undefined) {
+            throw resp;
+          }
+          document.getElementById("signout_button").style.visibility =
+            "visible";
+          document.getElementById("authorize_button").innerText = "Refresh";
+          await listLabels();
+        };
+
+        if (gapi.client.getToken() === null) {
+          // Prompt the user to select a Google Account and ask for consent to share their data
+          // when establishing a new session.
+          tokenClient.requestAccessToken({ prompt: "consent" });
+        } else {
+          // Skip display of account chooser and consent dialog for an existing session.
+          tokenClient.requestAccessToken({ prompt: "" });
+        }
+      }
+
+      /**
+       *  Sign out the user upon button click.
+       */
+      function handleSignoutClick() {
+        const token = gapi.client.getToken();
+        if (token !== null) {
+          google.accounts.oauth2.revoke(token.access_token);
+          gapi.client.setToken("");
+          document.getElementById("content").innerText = "";
+          document.getElementById("authorize_button").innerText = "Authorize";
+          document.getElementById("signout_button").style.visibility = "hidden";
+        }
+      }
+
+      /**
+       * Print all Labels in the authorized user's inbox. If no labels
+       * are found an appropriate message is printed.
+       */
+      async function listLabels() {
+        let response;
+        try {
+          response = await gapi.client.gmail.users.labels.list({
+            userId: "me",
+          });
+        } catch (err) {
+          document.getElementById("content").innerText = err.message;
+          return;
+        }
+        const labels = response.result.labels;
+        if (!labels || labels.length == 0) {
+          document.getElementById("content").innerText = "No labels found.";
+          return;
+        }
+        // Flatten to string to display
+        const output = labels.reduce(
+          (str, label) => `${str}${label.name}\n`,
+          "Labels:\n"
+        );
+        document.getElementById("content").innerText = output;
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="gapiLoaded()"
+    ></script>
+    <script
+      async
+      defer
+      src="https://accounts.google.com/gsi/client"
+      onload="gisLoaded()"
+    ></script>
+  </body>
+</html>

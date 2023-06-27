@@ -1,0 +1,28 @@
+body{
+    background-color: #E5E0FF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#board {
+    background-color: #AAE3E2;
+    border-collapse: collapse;
+    font-size: 48px;
+}
+
+.row {
+    height: 13vh;
+}
+
+.cell {
+    width: 13vh;
+    height: 13vh;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #400E32;
+}

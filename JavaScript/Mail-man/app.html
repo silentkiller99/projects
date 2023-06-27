@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta
+      name="google-signin-client_id"
+      content="350406253267-8b29fe034ijner8tdoc5uq6oo588ifmk.apps.googleusercontent.com"
+    />
+  </head>
+
+  <body>
+    <section class="vh-100" style="background-color: #8cb1f3">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-xl-10">
+            <!-- Section: Design Block -->
+            <section
+              class="background-radial-gradient overflow-hidden mh-100"
+              style="border-radius: 1rem"
+            >
+              <div
+                class="container px-4 py-5 px-md-5 text-center text-lg-start my-5"
+              >
+                <div class="row gx-lg-5 align-items-center mb-5">
+                  <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+                    <h1
+                      class="my-5 display-5 fw-bold ls-tight"
+                      style="color: hsl(218, 81%, 95%)"
+                    >
+                      Mail Trump<br />
+                      <span style="color: hsl(218, 81%, 75%)"
+                        >for your business</span
+                      >
+                    </h1>
+                    <p
+                      class="mb-4 opacity-70"
+                      style="color: hsl(218, 81%, 85%)"
+                    >
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Temporibus, expedita iusto veniam atque, magni tempora
+                      mollitia dolorum consequatur nulla, neque debitis eos
+                      reprehenderit quasi ab ipsum nisi dolorem modi. Quos?
+                    </p>
+                  </div>
+
+                  <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+                    <div
+                      id="radius-shape-1"
+                      class="position-absolute rounded-circle shadow-5-strong"
+                    ></div>
+                    <div
+                      id="radius-shape-2"
+                      class="position-absolute shadow-5-strong"
+                    ></div>
+
+                    <div class="card bg-glass">
+                      <div class="card-body px-4 py-5 px-md-5">
+                        <form onsubmit="return false">
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="email"
+                              id="form3Example3"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="form3Example3"
+                              >Email address</label
+                            >
+                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="form3Example4"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="form3Example4"
+                              >Password</label
+                            >
+                          </div>
+
+                          <!-- Checkbox -->
+                          <div
+                            class="form-check d-flex justify-content-center mb-4"
+                          >
+                            <input
+                              class="form-check-input me-2"
+                              type="checkbox"
+                              value=""
+                              id="form2Example33"
+                              checked
+                              style="background-color: #7e4db5"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="form2Example33"
+                            >
+                              Subscribe to our newsletter
+                            </label>
+                          </div>
+
+                          <!-- Submit button -->
+
+                          <button
+                            type="submit"
+                            class="btn btn-primary btn-block mb-4"
+                            id="authorize_button"
+                            onclick="signIn()"
+                            style="background-color: #7e4db5; color: #000"
+                          >
+                            Login
+                          </button>
+
+                          <!-- <button type="submit"
+                            class="btn btn-primary btn-block mb-4"
+                            style="background-color: #7e4db5; color: #000"
+                            id="signout_button"
+                            onclick="handleSignoutClick()"
+                          >
+                            Sign Out
+                          </button> -->
+                        </form>
+                        
+                        <div>
+                            <pre id="content" style="white-space: pre-wrap"></pre>
+                            <pre id="name" style="white-space: pre-wrap"></pre>
+                            <pre id="image" style="white-space: pre-wrap"></pre>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Section: Design Block -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

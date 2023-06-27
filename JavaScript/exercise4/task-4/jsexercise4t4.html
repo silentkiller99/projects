@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="nav">
+        <form id="form">
+            <input type="text" id="firstName" placeholder="FirstName">
+            <input type="text" id="lastName" placeholder="LastName">
+            <input type="button" id="addbtn-x" value="Add" onclick="validateInput(event)">
+        </form>
+    </div>
+    <div><label for="">DeleteALL
+        <input type="checkbox" name="deleteButton" id="deleteButton-x" value="deleteButton-x" onchange="chkboxall()" checked>
+        <input type="button" value="Delete Selected" onclick="deleteChecked()">
+
+    </label>
+    </div>
+    <div id="myTable">
+    </div>
+    <script type="text/javascript" src="jsexercise4t4.js"></script>
+</body>
+
+</html>

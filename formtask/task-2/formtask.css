@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: #579BB1;
+}
+.block{
+    padding: 5px;
+    width: 40%;
+    display: flex;
+    justify-content:left;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formtask.css">
+</head>
+
+<body>
+    <div id="nav">
+        <form id="user_form" onsubmit="return false">
+            <div class="block" id="name">
+                <label for="name">Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="FirstName" minlength="6" required>
+                <input type="text" id="lastName" name="lastName" placeholder="LastName" minlength="6" required>
+            </div>
+            <div class="block">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="Email" placeholder="example548@xyz.com" required>
+            </div>
+            <div class="block">
+                <label for="Age">Age :</label>
+                <input type="number" name="Age" id="age" min="13" max="26" placeholder="Age" required>
+            </div>
+            <div class="block">
+                <label for="Date-of-Birth">Date-of-Birth :</label>
+                <input type="date" id="dob" max="2023-01-20" name="DOB" required>
+            </div>
+            <select class="block" id="places" name="Places">
+                <option value="Gujrat">Gujrat</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="U.P.">U.P.</option>
+                <option value="Bihar">Bihar</option>
+            </select>
+            <div class="block">
+                <input type="radio" name="payment" value="gpay">GPay
+                <input type="radio" name="payment" value="phonepay">phonePay
+                <input type="radio" name="payment" value="paytm">Paytm
+                <input type="radio" name="payment" value="cash">Cash
+            </div>
+            <select class="block" id="vehical" name="vehical">
+                <option value="Bike">Bike</option>
+                <option value="Thar">Thar</option>
+                <option value="Auto">U.P.</option>
+                <option value="Sedan">Sedan</option>
+            </select>
+            <!-- <input type="submit" id="submitbtn" value="submit" onclick="doForms()">
+            <input type="reset" value="reset" > -->
+            <button type="submit" name="Submit" value="submit" onclick="validateInput(action)">Submit</button>
+        </form>
+    </div>
+    <div id="myTable">
+    </div>
+    <script type="text/javascript" src="formtask2.js"></script>
+</body>
+
+</html>

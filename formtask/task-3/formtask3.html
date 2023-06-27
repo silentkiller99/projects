@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formtask.css">
+</head>
+
+<body>
+    <div id="nav">
+        <form id="user_form" onsubmit="return false">
+
+            <select class="block" id="country" name="country">
+                <option value="none">Select-Country</option>
+                <option value="India">India</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+            </select>
+            <select class="block" name="state" id="state">
+                <option value="" selected="selected">Please select Country first</option>
+            </select>
+            <br>
+            <select class="block" name="city" id="city">
+                <option value="" selected="selected">Please select State first</option>
+            </select>
+            <br>
+            <button type="submit" name="Submit" value="submit" onclick="display()">submit</button>
+        </form>
+    </div>
+    <div id="myTable">
+    </div>
+    <script type="text/javascript" src="formtask3.js"></script>
+</body>
+
+</html>
